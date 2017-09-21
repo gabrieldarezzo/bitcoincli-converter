@@ -1,6 +1,8 @@
 #Editor
 *.sublime-workspace
 
+#Packs of NPM
+*.tgz
 
 # Logs
 logs

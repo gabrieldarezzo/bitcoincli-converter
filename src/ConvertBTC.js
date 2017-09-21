@@ -22,7 +22,7 @@ function convertBTC(currency = 'USD', amount = 1) {
       return parseError;
     }
 
-    console.log(`${chalk.red(amount)} BTC to ${chalk.cyan(currency)} = ${chalk.green(apiResponse.price)}`);
+    return console.log(`${chalk.red(amount)} BTC to ${chalk.cyan(currency)} = ${chalk.green(apiResponse.price)}`);
   });
 }
 
