@@ -7,15 +7,15 @@
 ### Installing
 
 ```
-$ npm install -g btc-converter
+$ npm install -g bitcoincli-converter
 ```
 
 ### How to use
 
 ```sh
-btc-converter --help
+bitcoincli-converter --help
 
-  Usage: btc-converter [options]
+  Usage: bitcoincli-converter [options]
 
   Convert Bitcoin to any currency defined
 
@@ -25,4 +25,23 @@ btc-converter --help
     -V, --version              output the version number
     -C, --currency <currency>  Currency to be converted. (Default: USD)
     -A, --amount <amount>      Value in Bitcoin to convert. (Default: 1)
+```
+
+Example of use:
+
+Navigate to Folder:
+```sh
+cd C:\xampp\htdocs\bitcoincli-converter
+```
+
+Check:
+```sh
+bitcoincli-converter
+1 BTC to USD = 6841.39
+```
+
+Check for currency in BRL (Brazil-Real)
+```sh
+bitcoincli-converter -C BRL
+1 BTC to BRL = 22307.94
 ```
