@@ -29,7 +29,7 @@ bitcoincli-converter --help
 
 Example of use:
 
-Navigate to Folder:
+Navigate to Folder: (If you don't install in global ```-g```)
 ```sh
 cd C:\xampp\htdocs\bitcoincli-converter
 ```
